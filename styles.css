@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* margin: 0;
+    padding: 0; */
+    /* align-items: center; */
+    align-content: center;
+  }
+
+  h1{
+    font-family: Arial, sans-serif;
+    background-color: #f9d400;
+    /* align-items: center; */
+    align-content: end;
+    text-align: center;
+
+  }
+
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input[type="text"] {
+    width: calc(70% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group button {
+    width: calc(30% - 10px);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .stats {
+    margin-bottom: 20px;
+  }
+  
+  .stats h2 {
+    margin-top: 0;
+  }
+  
+  .attendance-records table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attendance-records th, .attendance-records td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .attendance-records th {
+    background-color: #f2f2f2;
+  }
+  
+  .attendance-records tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .attendance-records tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .present {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .absent {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
